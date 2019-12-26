@@ -5,7 +5,7 @@ namespace gotoconfig.BarcodeLib.Controllers
     public class BarcodeController : Controller
     {
         public ActionResult Index()
-        {//Opent Barcode view
+        {//Opent Barcode view Ankush. 
             return View();
         }
 
