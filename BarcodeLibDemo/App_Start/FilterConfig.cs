@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace gotoconfig.BarcodeLib
+namespace gotoconfig.BarcodeLibDemo
 {
     public class FilterConfig
     {

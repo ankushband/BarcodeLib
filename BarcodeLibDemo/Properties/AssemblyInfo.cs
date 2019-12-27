@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BarcodeLib")]
+[assembly: AssemblyTitle("BarcodeLibDemo")]
 [assembly: AssemblyDescription("Ankush Band")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("gotoconfig.com")]
-[assembly: AssemblyProduct("BarcodeLib")]
+[assembly: AssemblyCompany("AnkushBand")]
+[assembly: AssemblyProduct("BarcodeLibDemo")]
 [assembly: AssemblyCopyright("AnkushBand Copyright ©  2019")]
 [assembly: AssemblyTrademark("AnkushBand")]
 [assembly: AssemblyCulture("")]

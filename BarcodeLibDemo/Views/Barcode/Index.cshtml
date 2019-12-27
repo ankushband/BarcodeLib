@@ -1,0 +1,36 @@
+﻿@model gotoconfig.BarcodeLibDemo.Models.BarcodeModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<br />
+<br />
+<h4>Barcode Label Demo.</h4>
+<hr />
+
+    <div class="col-md-2"></div>
+    <div class="row col-md-8">
+        <table class="table">
+            <thead>
+                <tr style="font-weight:bold;">
+                    <th>Barcode</th>
+                    <th>Patient Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var thisItem in Model.BarcodeInfoList)
+            {
+                    <tr>
+                        <td><img src="@thisItem.BarcodeImageUrl" /></td>
+                        <td>@thisItem.PatientId</td>
+                        <td>@thisItem.PatientFirstName</td>
+                        <td>@thisItem.PatientLastName</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-2"></div>
+<hr />

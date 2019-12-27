@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace gotoconfig.BarcodeLib
+namespace gotoconfig.BarcodeLibDemo
 {
     public class BundleConfig
     {
